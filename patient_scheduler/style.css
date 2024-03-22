@@ -1,0 +1,488 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "trebuchet ms", verdana, sans-serif;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+textarea {
+	font-family: "trebuchet ms", verdana, sans-serif;
+}
+img {
+	border: 0;
+}
+
+
+@media print{
+#nav { display:none;}
+#main_left{ display:none;}
+#clinic_name{ display:none;}
+#main_centre{ width:100%;}
+}
+a{
+	color: black;
+}
+#settings_heading {
+	text-align: center;
+	margin-top: 40px;
+}
+#index_login_form {
+	width: 370px;
+	margin: 100px auto 165px auto;
+	
+}
+#index_login_form table {
+	padding-left: 5px;
+}
+#forgot_pwd_form {
+	width: 430px;
+	margin: 80px auto 115px auto;
+}
+#index_login_form fieldset{
+	padding: 0px 10px 10px 10px;
+	border: 2px solid #2b5218;
+}
+#first_settings_form {
+	width: 530px;
+	margin: auto;
+	text-align: justify;
+}
+#settings_form {
+	margin-top: 20px;
+	width: 600px;
+	text-align: center;
+}
+#first_settings_table {
+	margin: 10px 0px 0px 0px;
+}
+#first_settings_table td {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+#settings_table {
+	margin: 10px 0px 10px 0px;
+}
+#settings_table td {
+	padding-left: 10px;
+}
+#register_table td {
+	padding-left: 20px;
+}
+#register_table {
+	width: 560px;
+}
+#error_info {
+	color: red;
+	font-size: 13px;
+}
+#container {
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid #a0a0a0;
+}
+#index_header {
+	background: #6ab546;
+	border-bottom: 4px solid #2b5218;
+	height: 110px;
+	margin: 0px;
+	padding-top: 10px;
+	text-align: center;
+	border-top: 1px solid #2b5218;
+	color: white;
+}
+#footer {
+	background: #f0f0f0;
+	padding: 5px 0px;
+	text-align: center;
+	border-top: 1px solid #a0a0a0;
+	border-bottom: 1px solid #a0a0a0;
+	clear: both;
+}
+#main_left {
+	background: #f0f0f0;
+	width: 200px;
+	height: 600px;
+	float: left;
+}
+#clinic_name {	
+	background: #6ab546;
+	border-bottom: 4px solid #2b5218;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 0px;
+	text-align: center;
+}
+#nav li{
+	list-style-type: none;
+	background: #e0e0e0;
+	padding: 5px 0px 6px 10px;
+	border-bottom: 1px solid black;
+	
+}
+#nav a {
+	text-decoration: none;
+	color: black;
+}
+#main_centre {
+	padding: 20px 10px 20px 215px;
+}
+#patient_info {
+	margin-left: 0px;
+}
+#patient_info th{	
+	background: #6ab546;
+	border-bottom: 4px solid #2b5218;
+	color: #fff;
+	padding: 5px;
+}
+#patient_info td{
+
+	border: 1px solid black;
+	font-size: 13px;
+	padding: 0px 5px;
+}
+#patient_info a{
+	color: black;
+	text-decoration: none;
+}
+#staff_info {
+	padding-left: 20px;
+}
+#staff_info th{
+	background: #6ab546;
+	border-bottom: 4px solid #2b5218;
+	color: #fff;
+	padding: 5px 5px;
+}
+#staff_info td{
+
+	border: 1px solid black;
+	font-size: 13px;
+	padding:1px 3px;
+}
+#staff_info a{
+	color: black;
+	text-decoration: none;
+}
+#staff_info_order ul {
+	margin-left: 0px;
+}
+#staff_info_order li {
+	display: inline;
+	background: #e0e0e0;
+	text-align: center;
+	padding: 5px 8px;
+	border: 1px solid black;
+}
+#staff_info_order a {
+	text-decoration: none;
+	color: black;
+}
+#patient_info_order ul{
+	margin-left: 60px;
+	
+}
+#patient_info_order li {
+	display: inline;
+	background: #e0e0e0;
+	text-align: center;
+	padding: 5px 12px;
+	border: 1px solid black;
+}
+#patient_info_order a {
+	text-decoration: none;
+	color: black;
+}
+#change_login_form {
+	width: 510px;
+	padding-left: 10px;
+}
+#change_login_form td {
+	padding-right: 0px;
+	padding-left: 15px;
+}
+#change_login_form table {
+	padding: 10px 0px 3px 5px;
+}
+#register_patient_form {
+	width: 600px;
+	padding-left: 10px;
+}
+#register_patient_form fieldset{
+	margin-bottom: 15px;
+}
+#view_patient_record {
+	margin: 10px 0px 10px 30px;
+}
+#edit_patient_link {
+	float: left;
+	font-weight: bold;
+	margin-right: 150px;
+}
+#billing {
+	font-weight: bold;
+}
+#plan_billing {
+	margin-left: 60px;
+}
+#plan_billing textarea {
+	width: 300px;
+	height: 60px;
+}
+#plan_billing legend {
+	font-weight: bold;
+}
+#plan_billing fieldset {
+	width: 465px;
+}
+#entered_billing {
+	margin-left: 20px;
+}
+#entered_billing th {
+	border: 1px solid black;
+}
+#entered_billing th {
+	background: #6ab546;
+	border-bottom: 4px solid #2b5218;
+	padding: 10px 20px;
+	color: white;
+}
+#entered_billing td {
+	padding: 5px 10px;
+	font-weight: bold;
+	border: 1px solid black;
+}
+#patient_bills {
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+#bill_folders {
+	margin-bottom: 15px;
+}
+#patient_bill {
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 450px;
+}
+#patient_bill td {
+	padding: 10px 10px 10px 10px;
+	border: 1px solid black;
+}
+#patient_bill th {
+	padding: 10px 70px 10px 10px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: left;
+	background-color: #eee;
+}
+#billing_links {
+	margin-left: 10px;
+}
+#billing_links a {
+	background-color: #228bdc;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	margin-left: 10px;
+	font-weight: bold;
+	border: 2px solid #000;
+}
+#monitor_billing {
+	margin: 0px 0px 10px 20px;
+}
+#total_cost {
+	margin-top: 20px;
+}
+#total_cost td {
+	font-weight: bold;
+	padding-right:40px;
+}
+#view_patient_record td{
+	padding: 10px 30px 0px 0px;
+	font-size: 18px;
+}
+#report_info_order ul{
+	margin-left: 120px;
+	
+}
+#report_info_order li {
+	display: inline;
+	background: #e0e0e0;
+	text-align: center;
+	padding: 5px 12px;
+	border: 1px solid black;
+}
+#report_info_order a {
+	text-decoration: none;
+	color: black;
+}
+#report_case {
+	padding: 30px 0px 10px 40px;
+}
+#report_case_links {
+	
+}
+#report_case_links ul {
+	margin-top: 20px;
+}
+#report_case_links li {
+	margin-right: 2px;
+	list-style-type: none;
+	display: inline;
+	padding: 5px 10px;
+	background-color: #228bdc;
+	border: 1px solid black;
+	font-weight: bold;
+}
+#report_case_links a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#menu_links ul {
+	margin-top: 20px;
+	margin-left: 0;
+}
+#menu_links li {
+	margin-right: 10px;
+	list-style-type: none;
+	display: inline;
+	padding: 5px 10px;
+	background-color: #228bdc;
+	border: 1px solid black;
+	font-weight: bold;
+}
+#menu_links a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#report_case_fieldset {
+	width: 620px;
+	padding-top: 30px;
+	margin-top: 30px;
+}
+#report_case_fieldset textarea {
+	width: 330px;
+}
+#report_case td{
+	padding-right: 15px;
+	padding-bottom: 7px;
+}
+#image_link {
+	float: right;
+	padding: 66px 160px 0px 0px;
+}
+#search_form {
+	padding-left: 10px;
+	width: 365px
+}
+#print_preview {
+	padding: 50px 2cm 50px 2cm;
+}
+#print_preview td {
+	padding: 0 20px 10px 0;
+}
+#signature {
+	padding-top: 120px;
+	margin-left: 30px;
+	width: 200px;
+}
+#email_report_fieldset {
+	width: 520px;
+}
+
+#ad {
+	font-size: 12px;
+	padding: 40px 10px 40px 10px;
+	background-color: #eeeeee;
+	margin-top: 0;
+}
+#ad fieldset{
+	border: 2px solid #a0a0a0;
+	padding: 10px;	
+}
+#ad legend {
+	font-weight: bold;
+}
+#ad p {
+	line-height: 8px;
+}
+
+#wait {
+	color: red;
+}
+#wait2 {
+	color: red;
+} 
+#wait3 {
+	color: red;
+} 
+#wait4 {
+	color: red;
+} 
+#wait5 {
+	color: red;
+} 
+#wait6 {
+	color: red;
+} 
+#wait7 {
+	color: red;
+} 
+#wait8 {
+	color: red;
+} 
+#subscription {
+	color: red;
+	padding: 30px 10px 0px 10px;
+	font-weight: bold;
+	background-color: #eeeeee;
+}
+#subscription_button {
+	padding: 15px;
+	font-weight: bold;
+}
+#subscription_button a {
+	background: url('images/1.png');
+	padding: 10px;
+	text-decoration: none;
+}
+#subscription_button a:hover {
+	background: url('images/2.png');
+}
+#loggedin_footer {
+	clear: both;
+}
+#balance_payment {
+	float:right;
+	margin-right: 10px;
+}
+#balance_payment h4 {
+	color: red;
+}
+#balance_payment th {
+	border: 1px solid black;
+}
+#balance_payment th {
+	background-color: #f0f0f0;
+	padding: 10px 20px;
+}
+#balance_payment td {
+	padding: 5px 10px;
+	font-weight: bold;
+	border: 1px solid black;
+}
+#demo_pass table {
+	border: 1px solid black;
+	padding: 15px;
+}
+#closing_balance p {
+	font-weight: bold;
+}
+#closing_balance td {
+	padding: 0px 10px;
+}

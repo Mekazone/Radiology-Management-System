@@ -1,0 +1,32 @@
+body {
+	width: 10.5cm;
+	height: 14.8cm;
+	font-family: "trebuchet ms", verdana, sans-serif;
+	color: #000;
+	margin: 0 auto;
+	font-size: 14px;
+}
+#container {
+	padding: 20px;
+	width: 10.5cm;
+	height: 14.8cm;
+	margin: 0 auto;
+	border: 1px solid black;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+#clinic_address {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+#billing_content {
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+#billing_investigations {
+	margin-top: 15px;
+}
+#billing_investigations th {
+	text-align: left;
+}
